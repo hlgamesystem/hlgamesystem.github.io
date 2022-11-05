@@ -4,6 +4,14 @@ const titles = {
 	ucp: "User Control Panel",
 	forum: "Fórum",
 	mta: "Multi Theft Auto Server",
+	ts: "Teamspeak 3",
+};
+const ips = {
+	web: "https://hl-rpg.eu",
+	ucp: "https://ucp.hl-rpg.eu",
+	forum: "https://forum.hl-rpg.eu",
+	mta: "mtasa://ip.hl-rpg.eu",
+	ts: "ts3server://ts.hl-rpg.eu",
 };
 
 async function genReportLog(container, key, url) {
@@ -30,7 +38,7 @@ function constructStatusStream(key, url, uptimeData) {
 
   const container = templatize("statusContainerTemplate", {
     title: titles[key],
-    url: url,
+    url: ips[key],
     color: color,
     status: getStatusText(color),
     upTime: uptimeData.upTime,
