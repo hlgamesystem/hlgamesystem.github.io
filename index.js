@@ -3,7 +3,7 @@ const titles = {
 	web: "Weboldal",
 	ucp: "User Control Panel",
 	forum: "Fórum",
-	mainserver: "Multi Theft Auto Server",
+	mta: "Multi Theft Auto Server",
 };
 
 async function genReportLog(container, key, url) {
