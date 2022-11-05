@@ -1,1 +1,1 @@
-# hlgamesystem.github.io
+status.hl-rpg.eu
