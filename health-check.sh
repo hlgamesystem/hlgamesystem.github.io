@@ -34,7 +34,7 @@ do
 			result="failed"
 		fi
 		
-		echo "${key} return code: $response"
+		echo "${key} return code: $result"
 		
 		if [ "$result" = "success" ]; then
 			break
