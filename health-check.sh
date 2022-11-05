@@ -38,7 +38,7 @@ do
     if [ "$response" -eq 200 ] || [ "$response" -eq 202 ] || [ "$response" -eq 301 ] || [ "$response" -eq 302 ] || [ "$response" -eq 403 ] || [ "$response" -eq 307 ]; then
       result="success"
     else
-      result="failed"
+      result="failed ($response)"
     fi
     if [ "$result" = "success" ]; then
       break
