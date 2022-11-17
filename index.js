@@ -1,6 +1,7 @@
 const maxDays = 30;
 const titles = {
 	web: "Weboldal",
+	sa: "Sa Style Weboldal",
 	ucp: "User Control Panel",
 	forum: "Fórum",
 	saforum: "SA Style Fórum",
@@ -8,6 +9,7 @@ const titles = {
 	ts: "Teamspeak 3",
 };
 const ips = {
+	sa: "https://sa.hl-rpg.eu",
 	web: "https://hl-rpg.eu",
 	ucp: "https://ucp.hl-rpg.eu",
 	forum: "https://forum.hl-rpg.eu",
