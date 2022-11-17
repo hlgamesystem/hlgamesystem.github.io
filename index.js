@@ -3,6 +3,7 @@ const titles = {
 	web: "Weboldal",
 	ucp: "User Control Panel",
 	forum: "Fórum",
+	saforum: "SA Style Fórum",
 	mta: "Multi Theft Auto Server",
 	ts: "Teamspeak 3",
 };
@@ -10,6 +11,7 @@ const ips = {
 	web: "https://hl-rpg.eu",
 	ucp: "https://ucp.hl-rpg.eu",
 	forum: "https://forum.hl-rpg.eu",
+	saforum: "https://saforum.hl-rpg.eu",
 	mta: "mtasa://ip.hl-rpg.eu",
 	ts: "ts3server://ts.hl-rpg.eu",
 };
